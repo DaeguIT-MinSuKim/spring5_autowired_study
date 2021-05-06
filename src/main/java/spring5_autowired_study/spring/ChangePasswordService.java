@@ -1,7 +1,5 @@
 package spring5_autowired_study.spring;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
 public class ChangePasswordService {
 	private MemberDao memberDao;
 

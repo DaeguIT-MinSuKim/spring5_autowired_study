@@ -2,8 +2,6 @@ package spring5_autowired_study.spring;
 
 import java.util.Collection;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
 public class MemberListPrinter {
 	private MemberDao memberDao;
 	private MemberPrinter printer;
