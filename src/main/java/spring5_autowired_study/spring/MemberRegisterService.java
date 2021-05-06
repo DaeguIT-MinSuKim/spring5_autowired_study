@@ -2,8 +2,15 @@ package spring5_autowired_study.spring;
 
 import java.time.LocalDateTime;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class MemberRegisterService {
+	@Autowired
 	private MemberDao memberDao;
+
+	public MemberRegisterService() {
+		// TODO Auto-generated constructor stub
+	}
 
 	public MemberRegisterService(MemberDao memberDao) {
 		this.memberDao = memberDao;
